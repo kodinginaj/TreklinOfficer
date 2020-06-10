@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="180dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Baca Komplain"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etKomplain"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:padding="5dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/textarea"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:orientation="horizontal" >
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btnNo"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:background="@drawable/custom_button"-->
+        <!--            android:clickable="true"-->
+        <!--            android:text="No"-->
+        <!--            android:textColor="#fff"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/btnYes"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="30dp"-->
+        <!--            android:layout_marginLeft="5dp"-->
+        <!--            android:background="@drawable/custom_button_primary"-->
+        <!--            android:clickable="true"-->
+        <!--            android:text="Yes"-->
+        <!--            android:textColor="#fff"-->
+        <!--            android:textStyle="bold" />-->
+
+    </LinearLayout>
+
+
+</LinearLayout>
