@@ -20,6 +20,7 @@
         android:id="@+id/etKomplain"
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:focusable="false"
         android:layout_marginBottom="15dp"
         android:layout_marginLeft="15dp"
         android:padding="5dp"

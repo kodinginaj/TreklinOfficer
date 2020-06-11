@@ -14,19 +14,20 @@
         android:layout_height="wrap_content"
         android:text="Nama : Henry Dwi Septian"
         android:paddingBottom="10dp"
-        android:id="@+id/tvJudulArticle"/>
+        android:id="@+id/tvNama"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lokasi : Jl. Swaday no.44 Blok B Jakarta Barat"
         android:paddingBottom="10dp"
-        android:id="@+id/tvJudulArticle"/>
+        android:id="@+id/tvAlamat"/>
 
     <Button
         android:layout_width="match_parent"
         android:textColor="#fff"
         android:text="Baca"
         android:textSize="12sp"
+        android:id="@+id/btnBaca"
         android:background="@drawable/buttonprimary"
         android:layout_height="match_parent"></Button>
 

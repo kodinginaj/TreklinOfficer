@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ImageView;
 
+import com.example.treklinofficer.util.Session;
+
 public class SplahPetugas extends Activity {
 
     Handler handler;
@@ -27,9 +29,19 @@ public class SplahPetugas extends Activity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(SplahPetugas.this, LoginPetugas.class);
-                startActivity(i);
-                finish();
+
+                Session session = new Session(SplahPetugas.this);
+
+                String nama = session.getNama();
+                if (nama == null){
+                    Intent i = new Intent(SplahPetugas.this, LoginPetugas.class);
+                    startActivity(i);
+                    finish();
+                }else{
+                    Intent i = new Intent(SplahPetugas.this, MainActivity.class);
+                    startActivity(i);
+                    finish();
+                }
             }
         }, 4000);
     }
