@@ -63,7 +63,7 @@ public class CheckNotificationService extends Service {
         updateLocation.enqueue(new Callback<ResponseModel>() {
             @Override
             public void onResponse(Call<ResponseModel> call, Response<ResponseModel> response) {
-                Toast.makeText(CheckNotificationService.this, "Update Teros", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(CheckNotificationService.this, "Update Teros", Toast.LENGTH_SHORT).show();
             }
 
             @Override
