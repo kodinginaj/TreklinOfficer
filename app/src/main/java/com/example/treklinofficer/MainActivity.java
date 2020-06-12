@@ -130,6 +130,8 @@ public class MainActivity extends AppCompatActivity{
                 session.setLongitude("");
                 session.setAlamat("");
                 session.setEmail("");
+
+                finish();
             }
         });
         builder.setNegativeButton("Tidak", new DialogInterface.OnClickListener() {
